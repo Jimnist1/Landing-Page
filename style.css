@@ -8,16 +8,19 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
 }
 .logo {
     display: flex;
+    font-size: 24px;
+    font-family: roboto; /* need to download font */
+
 }
 a {
     text-decoration: none;
-    color: white;
     padding-left: 20px;
-
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 
@@ -25,4 +28,10 @@ a {
     display: flex;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
+
+}
+img {
+    max-width: 150px;
+    max-height: 150px;
 }
