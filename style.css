@@ -6,10 +6,14 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
 }
 .logo {
     display: flex;
 }
 a {
     text-decoration: none;
+    color: white;
+    padding-left: 20px;
 }
