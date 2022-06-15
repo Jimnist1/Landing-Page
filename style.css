@@ -38,10 +38,12 @@ a {
     justify-content: center;
 }
 .image-group {
-    max-width: 150px;
-    max-height: 150px; /* research image boxing + border */
-    border: 5px;
+    max-width: 200px;
+    max-height: 200px; /* research image boxing + border */
+    border: 10px;
     border-color: #3882f6;
+    border-radius: 15px;
+    border: #3882f6;
 }
 
 
@@ -71,13 +73,22 @@ a {
 
 
 .container4 {
+    color: white;
     background-color: #3882f6;
     display: flex;
     justify-content: center;
+
 }
 
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+    pad
+}
 
 
 /*Add all fonts and basic layout to see whats missing*/
