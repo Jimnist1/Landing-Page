@@ -33,5 +33,11 @@ a {
 }
 img {
     max-width: 150px;
-    max-height: 150px;
+    max-height: 150px; /* research image boxing + border */
 }
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Add all fonts and basic layout to see whats missing*/
