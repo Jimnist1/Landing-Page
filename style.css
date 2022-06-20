@@ -26,6 +26,7 @@ header {
     background-color: #1F2937;
     color: #f9faf8;
     padding: 10px;
+    
 }
 .logo {
     display: flex;
@@ -59,6 +60,9 @@ a {
 .title1 {
     font-size: 48px;
     font-weight: bolder;
+}
+.subtext1 {
+    font-size: 18px;
 }
 .logo-space {
     height: 300px;
@@ -116,6 +120,7 @@ a {
     display: flex;
     gap: 40px;
     margin-bottom: 120px;
+    font-size: 18px;
 }
 
 /*3rd*/
@@ -141,6 +146,18 @@ a {
     background-color: #3882f6;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding:60px 120px;
+    margin: 120px 340px;
+    border-radius: 15px;
+    gap: 100px;
+}
+.title3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.subtext2 {
+    font-size: 18px;
 }
 
 /*Bottom*/
