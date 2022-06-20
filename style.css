@@ -13,6 +13,10 @@ button {
     border-radius: 5px;
     color: white;
     padding: 5px 15px;
+    font-weight: bold;
+}
+p {
+    margin: 0;
 }
 
 /*TOP*/
@@ -43,21 +47,21 @@ a {
     color: #f9faf8;
     justify-content: center;
     padding: 120px;
-    gap: 40px;
+    gap: 20px;
 }
 .sub-cont1 {
-    height: 400px;
+    height: 300px;
     width: 600px;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 }
 .title1 {
     font-size: 48px;
     font-weight: bolder;
 }
 .logo-space {
-    height: 400px;
+    height: 300px;
     width: 600px;
     background-color: #e5e7eb;
     display: flex;
