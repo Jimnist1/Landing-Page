@@ -3,6 +3,7 @@ body {
     flex: 1;
     flex-direction: column;
     margin: 0;
+    padding: 0;
 }
 button {
     background-color: #3882f6;
@@ -38,15 +39,25 @@ a {
     color: #f9faf8;
     justify-content: center;
     padding: 120px;
+    gap: 40px;
 }
 .title1 {
     font-size: 48px;
     font-weight: bolder;
 }
-.logo-image {
+.logo-space {
     height: 400px;
-    width: 800px;
+    width: 600px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
+.logo-image {
+    height: 95%;
+    width: auto;
 }
 
 
@@ -98,7 +109,6 @@ footer {
     background-color: #1F2937;
     color: white;
     padding: 20px;
-    pad
 }
 
 
