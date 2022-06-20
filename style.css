@@ -129,6 +129,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
+    padding: 120px 550px;
 }
 .quote {
     font-size: 36px;
@@ -137,7 +138,10 @@ a {
 }
 .author{
     display: flex;
-    align-self: flex-end;
+    align-self:flex-end;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 /*4th*/
