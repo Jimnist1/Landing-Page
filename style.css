@@ -26,6 +26,7 @@ header {
 .logo {
     display: flex;
     font-size: 24px;
+    font-weight: bold;
 
 }
 a {
@@ -43,6 +44,13 @@ a {
     justify-content: center;
     padding: 120px;
     gap: 40px;
+}
+.sub-cont1 {
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .title1 {
     font-size: 48px;
