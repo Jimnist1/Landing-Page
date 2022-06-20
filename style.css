@@ -66,6 +66,12 @@ a {
     flex-direction: column;
     align-items: center;
 }
+.title2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 60px;
+}
 .multi-space, .descript {
     width: 200px;
     display: flex;
@@ -96,6 +102,7 @@ a {
 .image-description {
     display: flex;
     gap: 40px;
+    margin-bottom: 120px;
 }
 
 /*3rd*/
@@ -104,6 +111,11 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 .author{
     display: flex;
