@@ -1,3 +1,4 @@
+/*Overall use */
 body {
     display: flex;
     flex: 1;
@@ -9,9 +10,10 @@ button {
     background-color: #3882f6;
     border-color: #3882f6;
     border-radius: 15px;
-    color: white;
-    
+    color: white;  
 }
+
+/*TOP*/
 header {
     display: flex;
     justify-content: space-around;
@@ -32,7 +34,7 @@ a {
     color: #e5e7eb;
 }
 
-
+/*1st */
 .container1 {
     display: flex;
     background-color: #1F2937;
@@ -52,36 +54,46 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .logo-image {
     height: 95%;
     width: auto;
 }
 
-
+/*2nd*/
 .container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.image-group {
-    max-width: 200px;
-    max-height: 200px; /* research image boxing + border */
-    border: 10px;
-    border-color: #3882f6;
+.multi-space {
+    height: 250px;
+    width: 250px;
+    border: 5px solid #3882f6;
     border-radius: 5px;
-    border: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-group {
+    width: auto;
+    height: 95%;
+    max-width: 190px;
+    max-width: 190px;
+    border-radius: 5px;
+
+
 }
 .results-images {
     display: flex;
+    gap: 40px;
+
 }
 .image-description {
     display: flex;
 }
 
-
+/*3rd*/
 .container3 {
     display: flex;
     flex-direction: column;
@@ -93,16 +105,15 @@ a {
     align-self: flex-end;
 }
 
-
+/*4th*/
 .container4 {
     color: white;
     background-color: #3882f6;
     display: flex;
     justify-content: center;
-
 }
 
-
+/*Bottom*/
 footer {
     display: flex;
     justify-content: center;
@@ -110,6 +121,3 @@ footer {
     color: white;
     padding: 20px;
 }
-
-
-/*Add all fonts and basic layout to see whats missing*/
