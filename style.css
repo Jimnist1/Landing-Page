@@ -10,8 +10,9 @@ body {
 button {
     background-color: #3882f6;
     border-color: #3882f6;
-    border-radius: 15px;
-    color: white;  
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
 }
 
 /*TOP*/
